@@ -1,4 +1,4 @@
-# PYTHON-LEARNING-JOURNEY
+
 Farhan Hussain's Python Learning Journey 🚀
 Welcome to my Python Learning Journey!
 I'm Farhan Hussain from India, and this repository documents my chapter-wise progress as I learn Python—my very first programming language—using the popular "Code with Harry" YouTube playlist.
