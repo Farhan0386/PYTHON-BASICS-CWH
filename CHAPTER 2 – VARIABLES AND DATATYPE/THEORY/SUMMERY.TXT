@@ -1,0 +1,77 @@
+# VARIABLE : these are like container in which we can store data of many datatypes
+# DATATYPES : the form of data is datatypes some examples of datatypes are following
+1 string(str) contain A to Z we can store data in varibles by ' ' or " " 
+ ex :  variable1="farhan"
+2 integer(int) contain all positive negative numbers also 0  , we don't require ' ' or " " to store this datatype in varible.
+ ex :  varible2=786
+3 float(float) contain number with decimal it is same like integer but with more detail about quantity
+ ex :  varible=56.5
+4 boolen(bool) contain True and False only
+ e x: varible4= True 
+5 nonetype  in this datatype there is no value contained
+  
+# Here are the main rules for naming variables in Python:
+
+ 1. Variable names can contain letters (a-z, A-Z), digits (0-9), and underscores (_).
+ 2. Variable names must start with a letter or underscore, not a digit.
+ 3. Variable names are case-sensitive (myVar and myvar are different).
+ 4. Variable names cannot be Python keywords (like if, for, while, etc.).
+ 5. Avoid using special characters (like @, $, %, etc.) in variable names.
+ 6. Use descriptive names for better readability.
+
+ Example of valid variable names: my_var, age1, _name
+ Example of invalid variable names: 1age, my-var, for
+
+# OPERATORS 
+
+1. Arithmetic operators: +, -, *, /, % , **
+   Example: a + b, a - b, a * b, a / b, a % b
+2. Assignment operators: =, +=, -=, *=, /=
+   Example: x = 5, x += 2, x -= 1
+3. Comparison operators: ==, !=, >, <, >=, <=
+   Example: a == b, a != b, a > b
+4. Logical operators: and, or, not
+   Example: (a > 5 and b < 10), not done
+
+# type() FUNCTION
+
+The type() function in Python is used to find out the data type of a variable or value.
+
+Example:
+  x = 5
+  print(type(x))   # Output: <class 'int'>
+  y = "hello"
+  print(type(y))   # Output: <class 'str'>
+  z = 3.14
+  print(type(z))   # Output: <class 'float'>
+
+# TYPECASTING
+
+Typecasting in Python means converting one data type into another. This is useful when you need to perform operations between different types.
+
+Common typecasting functions:
+  int()   # converts to integer
+  float() # converts to float
+  str()   # converts to string
+  bool()  # converts to boolean
+
+Example:
+  a = "123"
+  b = int(a)   # b is now 123 (int)
+  c = 3.14
+  d = str(c)   # d is now "3.14" (str)
+  e = 0
+  f = bool(e)  # f is now False (bool)
+
+# input() FUNCTION
+
+The input() function in Python is used to take input from the user. It always returns the input as a string.
+
+Example:
+  name = input("Enter your name: ")
+  print("Hello,", name)
+
+If you want to take a number as input, you need to convert it using typecasting:
+  age = input("Enter your age: ")
+  age = int(age)  # Now age is an integer
+
