@@ -1,0 +1,4 @@
+variable1=input("Enter a value: ")
+print("now this tell you about data type of youe entered value")
+print(type(variable1))
+print("by defult type of data in input function is string and we can it to another datatype by typecasting")
