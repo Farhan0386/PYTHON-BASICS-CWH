@@ -1,0 +1,17 @@
+#MODULE : are the code stored by somebody else and used by somebody later. 
+#PIP : is package manager in python we can import modules with help of pip by giving command in terminal.
+     : We give command like (pip install pyjokes)  this command install pyjokes in our system then we can use it in our program.
+
+     THER ARE T WO TYPES OF MODULE :
+     built in modules and external modules 
+     some examples of built in modules are : OS and RANDOM.
+     some examples of external modules are : TensorFlow and flask.
+
+# REPL : stands for read evaluate print loop .
+         we can use REPL in terminal 
+         EX : if i write python in terminal then i can use python in terminal we use generally to test the code .
+# COMMENTS : these are the lines in code that we want to not  to execute by python interpreter.
+             there are two types of comments in python : single line and multiple line comments
+             single line comment: just add # before the comment line we can use it anywhere in line and shortcut of this is ctrl + / 
+             multiple line comment: just add '''  '''' or """ """ these are use to comment many lines .
+                       
