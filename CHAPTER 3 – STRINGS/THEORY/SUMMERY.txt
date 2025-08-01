@@ -1,0 +1,32 @@
+# STRING : it is datatype in python . it is enclosed by quotes 
+ a ='harry' # Single quoted string      
+ b = "harry" # Double quoted string     
+ c = '''harry'''  # Triple quoted string
+
+#STRING SLICING : it means we can get spacific  part of string by slicing.
+ ex =>  name=farhan  => length =6 means there are 6 alphabats in name farhan and in python index of ' a ' string starts from 0 not 1 and  the dash between two words is also counts .
+             ||||||
+             012345  these are position of alphabats in my name as f gets 0 then ' a ' gets 1 .... and ' n ' gets 5 .
+             s1=name[index start:index end] this is format of SLICING.
+             s1[0:3] : outputs => far
+             s1[1:3] : outputs => ar
+#SLICING WITH SKIP VALUE :  word = "amazing"
+                            word[1:6:2] this return' mzn ' it starts from index 1 to 6 it starts from ' m ' then jump that letter after skiping 2 letters means ' m 'is first and ' a ' is second then it jumps to ' z '.
+                            Other advanced slicing techniques:  word[ :7] returns amazing because it means [0:7]
+                                                                word[0: ] return  amazing beacuse it means [0:7] if end index is missing in slicing then it means last index of that string . 
+                                                                if there are two or more than two words in string and end index is missing like name[0:] then it print whole string. 
+
+#STRING FUNCTIONS :  str='farhan'
+
+                    1 print(len(str))              outputs : 6 => len () function – This function returns the length of the strings. 
+                    2 print(str.endswitch('han'))  outputs : True  => String.endswith('han') – This function_ tells whether the variable string ends with the string "han" or not. 
+                    3 print(str.count('r'))        outputs : 1  =>  string.count("r") – counts the total number of occurrences of any character.
+                    4 print(str.capitalize())      outputs : Farhan => it will capitalize the first letter of string
+                    5 print(str.find('rha'))       outputs : 2 => string.find(word) – This function finds a word and returns the index of first occurrence of that word in the string. 
+                    6 print(str.replace('r','a'))  outputs : faahan =>  string.replace (old word, new word ) – This function replace the old word with new word in the entire string
+
+
+#ESCAPE SEQUENCE CHARACTERS : example :1 \n for to print in to new line remaing string after \n
+                                       2 \t for tab space between to words in string
+                                       3 \' for single quote after a letter
+                                       4 \\ for backslash in string
