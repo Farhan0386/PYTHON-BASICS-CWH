@@ -1,0 +1,41 @@
+# LISTS
+
+- Lists are containers used to store multiple values of any datatype (numbers, strings, etc.).
+- Lists are ordered and mutable (you can change, add, or remove elements).
+- You write lists with square brackets [].
+  Example: my_list = [8, 9, "farhan"]
+- Indexing: Element positions start from 0. Negative indices count from the end.
+- Slicing: You can get sub-parts of a list using [start:end] or [start:end:step].
+
+
+# Common List Methods
+
+1. sort()       # Sorts the list in increasing order.
+2. reverse()    # Reverses the entire list.
+3. append(x)    # Adds x to the end of the list.
+4. insert(i, x) # Inserts x at position i.
+5. pop(i)       # Removes and returns the element at index i .
+6. remove(x)    # Removes the first occurrence of x.
+
+# TUPLES
+
+- Tuples are also containers, but they are immutable (cannot be changed after creation).
+- You write tuples using parentheses ().
+  Example: t = (1, 7, 2)
+- A single element tuple must have a trailing comma: t = (1,)
+- Like lists, tuples can store any data type and can be indexed and sliced.
+
+# Common Tuple Methods
+
+1. count(x)     # Returns how many times x appears in the tuple.
+2. index(x)     # Returns the index of the first occurrence of x.
+
+# KEY DIFFERENCES
+
+- Lists: mutable, use [], elements can be added/removed.
+- Tuples: immutable, use (), elements cannot be changed.
+
+# PRACTICE TIPS
+
+- Use lists if you need a collection that may change during the program.
+- Use tuples if you want to keep the content fixed and safe from modification.
