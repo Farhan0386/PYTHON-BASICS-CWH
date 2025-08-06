@@ -1,0 +1,61 @@
+# DICTIONARY
+
+- Dictionary is a collection of key-value pairs.
+- Syntax:  my_dict = {"key1": "value1", "key2": "value2"}
+- Keys are unique and immutable, values can be any data type.
+- Access items by key: my_dict["key1"]
+- Unordered, mutable, indexed.
+
+# IMPORTANT DICTIONARY METHODS
+
+1. my_dict.keys()        # Returns all keys
+2. my_dict.values()      # Returns all values
+3. my_dict.items()       # List of (key, value) pairs
+4. my_dict.get("key")    # Returns value for given key
+5. my_dict.update(new)   # Adds/updates keys from another dict
+6. my_dict.pop("key")    # Removes given key and returns its value
+7. my_dict.clear()       # Removes all items
+8. "key" in my_dict      # Checks if key exists
+
+Example:
+  d = {"name": "Ali", "age": 20}
+  d["city"] = "Delhi"
+  print(d.keys())   # dict_keys(['name', 'age', 'city'])
+
+# SETS
+
+- Set is a collection of non-repeating (unique) elements.
+- Syntax: my_set = {1, 2, 3, 4}
+- Unordered, unindexed, mutable (can add/remove items).
+
+# IMPORTANT SET METHODS
+
+1. my_set.add(x)         # Adds x to set
+2. my_set.remove(x)      # Removes x from set, error if not present
+3. my_set.discard(x)     # Removes x if present, no error if missing
+4. my_set.pop()          # Removes random item
+5. my_set.clear()        # Removes all elements
+6. my_set.union(s2)      # Combines unique items from both sets
+7. my_set.intersection(s2) # Keeps only shared items
+8. my_set.difference(s2) # Items present in my_set but not in s2
+
+Example:
+  s = {1, 2, 3}
+  s.add(4)
+  s2 = {3, 4, 5}
+  print(s.union(s2))  # {1, 2, 3, 4, 5}
+
+# IMPORTING
+
+- No need to import for basic dict/set usage.
+- For advanced functions like Counter, defaultdict: from collections import Counter, defaultdict
+
+# KEY POINTS
+
+- **Dictionary**: Key-value, fast lookup, changeable.
+- **Set**: Unique, fast membership test, use for removing duplicates.
+
+# PRACTICE TIP
+
+- Use dict when you need to pair up info (e.g. name–score).
+- Use set to keep only unique values from a list (e.g. set([1,2,2,3]) → {1,2,3})
