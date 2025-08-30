@@ -1,5 +1,5 @@
 import os
-
+# this module contents functions to interact with the operating system
 # Specify the directory you want to list (use '.' for current directory)
 directory = '.'
 
