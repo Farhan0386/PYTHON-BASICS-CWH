@@ -1,4 +1,6 @@
 var1=float(input("Enter first number: "))
+print()
 var2=float(input("Enter second number: "))
+print()
 print("firts number is greater or equal to second number: ", var1 >= var2)
 print("first number is equal to second number: ", var1== var2)

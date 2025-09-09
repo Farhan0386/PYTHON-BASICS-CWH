@@ -1,8 +1,8 @@
 
-a = int(input("Enter number 1: "))
-
-b = int(input("Enter number 2: "))
-
+a = int(input("Enter first number  : "))
+print()
+b = int(input("Enter second number : "))
+print()
 print("Number a is: ", a)
 print("Number b is: ", b) 
-print("Sum is ", a + b)
+print("Sum of these two numbers ", a + b)
