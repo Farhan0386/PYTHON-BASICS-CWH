@@ -1,5 +1,5 @@
 empty_dict = {}  # Initialize an empty dictionary
-print("take two person'S  LANGUAGE same") # this is to show that dictionary does not allow duplicate keys
+print("take two person name same") # this is to show that dictionary does not allow duplicate keys
 w1 = input("Enter the first person's name: ") # Input first person's name
 n1 = input(f"Enter the language of {w1}: ") # Input the language of the first person
 empty_dict.update({w1: n1}) # Update the dictionary with the first person's name and language
@@ -19,5 +19,4 @@ empty_dict.update({w4: n4}) # Update the dictionary with the fourth person's nam
 print("THIS IS DICTIONARY OF YOUR INPUT PERSON AND THEIR LANGUAGE")
 for key, value in empty_dict.items():
     print(f"{key} speaks {value}")
-    print("IF YOU TAKE SAME VALUE OF DIFFRENT KEYS THEN THERE IS NO IMPACT ON THE DICTIONAY")
-
+print("if you take same name in key then the value entered later will print because dictionary does not allow duplicate keys") 
